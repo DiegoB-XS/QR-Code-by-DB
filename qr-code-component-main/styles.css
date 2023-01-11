@@ -1,0 +1,57 @@
+:root {
+    --font: 'Outfit', sans-serif;
+}
+
+
+html {
+    background-color: hsl(218, 34%, 83%);
+    font-family: Outfit;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1.2rem;
+    max-width: 17rem;
+    margin-top: 9rem;
+    margin-bottom: 1rem;
+}
+
+.container_img {
+    border-radius: 0.7rem;
+    max-width: 100%;
+}
+
+.container_text {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: hsl(218, 44%, 22%);
+    margin-top: 1.2rem;
+}
+
+.container_text2 {
+    font-weight: 400;
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 1.3rem;
+}
+
+.attribution {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 4rem;
+}
+
+.attribution a {
+    background-image: linear-gradient(125deg , blue, aqua);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
